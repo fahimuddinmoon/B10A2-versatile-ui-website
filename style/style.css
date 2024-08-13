@@ -442,14 +442,13 @@ hr{
 @media screen and (max-width:576px) {
    .nevber {
     flex-direction: column;
-    margin-left: 5px;
+    
    }
 }
 @media screen and (max-width:576px){
     .banner{
         flex-direction: column;
         padding-left: 20px;
-        margin-left: 25px;
     }
 }
 @media screen and (max-width:576px){
@@ -464,8 +463,7 @@ hr{
         width: 90%;
         height: 620px;
         gap: 0px;
-        padding-left: 15px;
-        
+        /* margin-left: 10px; */
     }
 }
 @media screen and (max-width:576px){
@@ -481,13 +479,13 @@ hr{
         height: 700px;
        align-items: start;
        text-align: left;
-       margin-left: 25px;
+       margin: 0px;
     }
 }
 @media screen and (max-width:576px){
     .Bmi-front-box{
         text-align: left;
-        margin-left: 25px;
+       
        
     }
 }
@@ -518,7 +516,6 @@ hr{
         flex-direction: column;
         padding-left: 20px;
         width: 350px;
-        margin-left: 25px;
     }
 }
 @media screen and (max-width:576px){
@@ -572,17 +569,5 @@ hr{
     }
 }
 @media screen and (max-width:576px){
-    .advice-container{
-        margin-left: 25px;
-    }
-}
-@media screen and (max-width:576px){
-   .tips-container{
-    margin-left: 25px;
-   }
-}
-@media screen and (max-width:576px){
-    .meet-container{
-        margin-left: 25px;
-    }
+
 }
