@@ -29,7 +29,7 @@ body{
 }
 .nav-option ul{
     display: flex;
-    gap: 40px;
+    gap: 30px;
    
    
 }
@@ -236,7 +236,6 @@ body{
 }
 .Bmi-front-box{
     text-align: center;
-
 }
 .Bmi-front h1{
     font-size: 2.3rem;
@@ -455,10 +454,10 @@ hr{
 @media screen and (max-width:576px){
     .tips{
         flex-direction: column;
-        width: 100%;
+        width: 90%;
         height: 620px;
         gap: 0px;
-        margin: 0px;
+        margin-left: 10px;
     }
 }
 @media screen and (max-width:576px){
@@ -478,14 +477,18 @@ hr{
     }
 }
 @media screen and (max-width:576px){
-    .Bmi-front{
+    .Bmi-front-box{
         text-align: left;
+       
+       
     }
 }
 @media screen and (max-width:576px){
     .form{
+        width: 350px;
         padding-right: 60px; 
         margin-top: 30px;
+        padding: 0px;
        }
 }
 
@@ -522,8 +525,42 @@ hr{
     
 }
 @media screen and (max-width:576px){
-    .meet-container{
-       
+    .button-2{
+       position: absolute;
+       left: 0px;
     }
     
+}
+@media screen and (max-width:576px){
+    .pic img,
+    .detail{
+        width: 80%;
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:576px){
+    .form input{
+        width: 100px;
+    }
+}
+@media screen and (max-width:576px){
+    .sex{
+        width: 150px;
+    }
+}
+@media screen and (max-width:576px){
+    .factor{
+        width: 305px;
+    }
+}
+@media screen and (max-width:576px){
+    .footer-intro{
+        width: 350px;
+    }
+}
+@media screen and (max-width:576px){
+
+}
+@media screen and (max-width:576px){
+
 }
